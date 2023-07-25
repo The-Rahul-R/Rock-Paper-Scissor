@@ -1,0 +1,78 @@
+
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    height: 100vh; 
+    width: 100vw;  /* These two lines which set the viewport solved the problem of last div not occupying remaining space.*/
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    min-height: 100px;
+    font-size: 20px;
+}
+
+.options {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgoldenrodyellow;
+}
+.options-footer {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+}
+
+.boxes {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 5px solid black;
+    box-shadow: 2px;
+}
+img {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+    background-color: rgb(249, 249, 198);
+    min-height: 130px;
+}
+
+.score {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    background-color: beige;
+    color: black;
+}
+
+.final-result {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    background-color: bisque;
+}

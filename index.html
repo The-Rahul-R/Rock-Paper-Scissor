@@ -4,13 +4,39 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
   <title>Document</title>
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>
-    Rock Paper Scissors!!! <br/>
-    Open Console to play
-  </h1>
-  <script src="script.js"></script>
+  <div class="header">
+    <div class="title">
+      Rock , Paper, Scissor Game with UI
+    </div>
+  </div>
+  <div class="options">
+    <div class="boxes">
+      <div id="r" class="box">
+        <img src="img/rock.png" alt="rock">
+      </div>
+      <div id="p" class="box">
+        <img src="img/paper.png" alt="paper">
+      </div>
+      <div id="s" class="box">
+        <img src="img/scissors.png" alt="scissors">
+      </div>
+    </div>
+    <div class="options-footer"> Make your selection</div>
+  </div>
+  <div class="message">
+    ...
+  </div>
+  <div class="score">
+    <div id="pscore">Player Score =</div>
+    <div id="cscore">Computer Score =</div>
+  </div>
+  <div class="final-result">
+    Result Pending...
+  </div>
 </body>
 </html>
